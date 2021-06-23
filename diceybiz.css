@@ -1,0 +1,40 @@
+body {
+    background: url(https://wallpaperaccess.com/full/3262797.jpg) no-repeat fixed;
+    background-size: cover;
+
+
+}
+#buttonBox {
+    display: flex;
+    width: 65em;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 1em;
+    box-shadow: 5px 5px 25px 5px #FFFFFF;
+    justify-content: center;
+    }
+#dieBox {
+ height: 10em;
+ width: 65em;
+ border: 1px solid;
+ border-radius: 10px;
+ margin: 1em auto;
+ display: flex;
+box-shadow: 5px 5px 25px 5px #FFFFFF;
+
+}
+#die {
+    background:
+radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
+radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),
+beige;
+background-size: 20px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 100px;
+    text-align: center;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    cursor: pointer;
+    margin:auto;
+}
