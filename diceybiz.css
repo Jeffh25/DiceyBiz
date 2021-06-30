@@ -6,16 +6,17 @@ body {
 }
 #buttonBox {
     display: flex;
-    width: 65em;
+    width: 90%;
     border: 1px solid;
     border-radius: 5px;
-    margin-top: 1em;
+    /* margin-top: 1em; */
+    margin: 1em auto;
     box-shadow: 5px 5px 25px 5px #FFFFFF;
     justify-content: center;
     }
 #dieBox {
  height: 10em;
- width: 65em;
+ width: 90%;
  border: 1px solid;
  border-radius: 10px;
  margin: 1em auto;
